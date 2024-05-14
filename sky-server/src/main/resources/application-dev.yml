@@ -1,0 +1,17 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: huangjunde233
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-id: LTAI5tJAWDbGMUEY6B7V2NBj
+    access-key-secret: p72gyiuQPLC1KixcAD0zUNHdK0tEmp
+    bucket-name: photo-store2
+  redis:
+    host: localhost
+    port: 6379
+    database: 10
